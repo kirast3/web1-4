@@ -1,0 +1,44 @@
+.border__poster {
+    border: 3px solid #006f00;
+}
+
+.container__poster {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 10px 30px;
+}
+
+.container__about-film {
+    padding-top: 10px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(166, 171, 66, 0.93);
+}
+
+.container__photo > img {
+    width: 320px;
+    height: 240px;
+    margin: 5px 10px 10px 5px;
+}
+
+.container__photo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0 10px 30px;
+}
+
+.container__description-film {
+    font-weight: 300;
+}
+
+.container__description-film > p {
+    margin: 20px 10px 30px 30px;
+}

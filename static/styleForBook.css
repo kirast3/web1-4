@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #b4afaf;
+}
+
+.container__about-book {
+    display: grid;
+    grid-template-columns: 25% 55% 20%;
+    padding: 10px 0 10px 30px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.content__with-name {
+    text-align: right;
+}
+
+.container__about-description > div {
+    padding: 15px 0 20px 15px;
+    text-indent: 12px;
+}
+
+.container__about-author {
+    display: grid;
+    grid-template-columns: 25% 65% 10%;
+    padding: 15px 0 15px 30px;
+}
+
+img {
+    border: 2px solid #813802;
+}
+
+h4 {
+    font-size: 14px;
+    color: #038503;
+    text-align: end;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.ty > li{
+    font-weight: bold;
+}
+
+.border__div {
+    border-bottom: 5px solid #070cc0;
+}
